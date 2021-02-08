@@ -1,6 +1,5 @@
 class QuestionsController < ApplicationController
   def ask
-  end
 
   def answer
     @answer = if params[:ask] == 'I am going to work'
